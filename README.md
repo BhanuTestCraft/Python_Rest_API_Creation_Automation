@@ -12,25 +12,25 @@ This repository contains a Flask REST API created to manage user data, connected
 4. Run the Flask app: python3 flask_api.py
 
 API Endpoints
-GET /users: Retrieve a list of all users.
-POST /users/create: Create a new user.
-PUT /users-put/{id}: Update user details.
-PATCH /users-patch/{id}: Partially update user details.
-DELETE /users/delete/{id}: Delete a user.   
+1. GET /users: Retrieve a list of all users.
+2. POST /users/create: Create a new user.
+3. PUT /users-put/{id}: Update user details.
+4. PATCH /users-patch/{id}: Partially update user details.
+5. DELETE /users/delete/{id}: Delete a user.   
 
 Automation Script (AccessRestApi/RequestApi)
 1. Navigate to the AccessRestApi folder: cd AccessRestApi
 2. Update the base URL in the script (request_api.py) to match your Flask API endpoint.
 
 Automated Requests
-GET Request: Retrieve a list of all users.
-POST Request: Create a new user.
-PUT Request: Update user details.
-PATCH Request: Partially update user details.
-DELETE Request: Delete a user.
+1. GET Request: Retrieve a list of all users.
+2. POST Request: Create a new user.
+3. PUT Request: Update user details.
+4. PATCH Request: Partially update user details.
+5. DELETE Request: Delete a user.
 
 Additional Notes
-Feel free to customize the Flask app and automation script based on your project requirements.
-Make sure the Flask app is running before executing automated requests.
+1. Feel free to customize the Flask app and automation script based on your project requirements.
+2. Make sure the Flask app is running before executing automated requests.
    
 
