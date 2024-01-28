@@ -1,6 +1,7 @@
 # Flask REST API and Automation
 
-This repository contains a Flask REST API created to manage user data, connected to a local PostgreSQL database (`restapi_db`). Additionally, there is an automation script in the `AccessRestApi` folder (`RequestApi`) that interacts with the REST API using the `requests` module.
+This repository contains a Flask REST API created to manage user data, connected to a local PostgreSQL database (`restapi_db`).
+Additionally, there is an automation script in the `AccessRestApi` folder (`RequestApi`) that interacts with the REST API using the `requests` module.
 
 ## Flask REST API (CreateRestApi)
 
